@@ -1,0 +1,24 @@
+{
+	"name": "sequelize-data-dictionary",
+	"version": "1.0.0",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [
+		"sequelize",
+		"data dictionary"
+	],
+	"description": "A library that generates a data dictionary for a Sequelize database",
+	"author": "Naman Thanki",
+	"license": "ISC",
+	"dependencies": {
+		"js-yaml": "^4.1.0",
+		"sequelize": "^6.37.3",
+		"sequelize-cli": "^6.6.2"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0",
+		"sqlite3": "^5.1.7"
+	}
+}
