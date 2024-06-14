@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const DataDictionaryGenerator = require("./DataDictionaryGenerator");
+const DataDictionaryGenerator = require("../lib/index");
 
 describe("DataDictionaryGenerator", () => {
 	let sequelize;
